@@ -12,7 +12,7 @@ Since the linear sientific SIR model used, seems to differ from reality.
 <br>
 <br>
 <br>
- **Forked from virus3spread with simple virus propagation and immune system, better code readability, dependencies removed, lightweight simmulation with FastBitmap **
+ **Forked from virus3spread with simple virus propagation and immune system, better code readability, dependencies removed, lightweight rendering using FastBitmap **
 <br>Further information see [virus4spread wiki](https://github.com/gitfrid/virus4spread/wiki)
 <br>
 <br> 
