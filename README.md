@@ -20,7 +20,7 @@ The recurring waves can possibly be explained by the properties of the coupled s
 <br>Without having to resort to changes in the environment or the immune system.
 <br>
 <br>**Recurring waves simulation - with parameters from Virus4spread_Sample.xml.**
-<br>**Click below to show the simulation:**
+<br>**Wait until simulation has loaded :**
 _________________________________________
 <br>
 
