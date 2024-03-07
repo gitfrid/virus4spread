@@ -19,7 +19,7 @@ Since the linear sientific SIR model used, seems to differ from reality.
 The recurring waves can possibly be explained by the properties of the coupled system.
 <br>Without having to resort to changes in the environment or the immune system.
 <br>
-<br>For maximal Iteration speed minimize the render Simulation Window to the Windows Taskbar.
+<br>Recurring waves - simulation with parameters from Virus4spread_Sample.xml:
 <br>
 ![Virus4spread_simulation](https://github.com/gitfrid/virus4spread/blob/e7fa8e33f64a566f36b3e1b0f723a4536f8f6026/VirusSpreadDokumentation/samples/Virus4spread%20sample%20FF%20small.gif)
 <br>
