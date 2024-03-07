@@ -21,7 +21,7 @@ The recurring waves can possibly be explained by the properties of the coupled s
 <br>
 <br>For maximal Iteration speed minimize the render Simulation Window to the Windows Taskbar.
 <br>
-![Virus3spread_screenshot](https://github.com/gitfrid/virus3spread/blob/df25a3806ab3e772d098f6518ea5ae881c148b1d/Dokumentation/samples/Sample1.png)
+![Virus4spread_simulation](https://github.com/gitfrid/virus4spread/blob/e7fa8e33f64a566f36b3e1b0f723a4536f8f6026/VirusSpreadDokumentation/samples/Virus4spread%20sample%20FF%20small.gif)
 <br>
 <br>
 <br>
