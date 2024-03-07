@@ -1,0 +1,112 @@
+﻿<Complex name="Root" type="VirusSpreadLibrary.AppProperties.AppSettings, VirusSpreadLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+  <Properties>
+    <Simple name="ShowHelperSettings" value="False" />
+    <Complex name="Form_Config_WindowLocation">
+      <Properties>
+        <Simple name="X" value="905" />
+        <Simple name="Y" value="460" />
+      </Properties>
+    </Complex>
+    <Complex name="Form_Config_WindowSize">
+      <Properties>
+        <Simple name="Width" value="2056" />
+        <Simple name="Height" value="1096" />
+      </Properties>
+    </Complex>
+    <Complex name="PlotForm_WindowLocation">
+      <Properties>
+        <Simple name="X" value="1913" />
+        <Simple name="Y" value="231" />
+      </Properties>
+    </Complex>
+    <Complex name="PlotForm_WindowSize">
+      <Properties>
+        <Simple name="Width" value="1838" />
+        <Simple name="Height" value="1190" />
+      </Properties>
+    </Complex>
+    <Complex name="PhaseChartForm_WindowLocation">
+      <Properties>
+        <Simple name="X" value="778" />
+        <Simple name="Y" value="1027" />
+      </Properties>
+    </Complex>
+    <Complex name="PhaseChartForm_WindowSize">
+      <Properties>
+        <Simple name="Width" value="1888" />
+        <Simple name="Height" value="1122" />
+      </Properties>
+    </Complex>
+    <Complex name="GridForm_WindowLocation">
+      <Properties>
+        <Simple name="X" value="50" />
+        <Simple name="Y" value="179" />
+      </Properties>
+    </Complex>
+    <Complex name="GridForm_WindowSize">
+      <Properties>
+        <Simple name="Width" value="1509" />
+        <Simple name="Height" value="1559" />
+      </Properties>
+    </Complex>
+    <Simple name="AppVersion" value="1.0.0.0" />
+    <Simple name="GridMaxX" value="875" />
+    <Simple name="GridMaxY" value="875" />
+    <Simple name="GridFormTimer" value="400" />
+    <Simple name="TrackMovment" value="False" />
+    <Simple name="PopulationDensityColoring" value="False" />
+    <Simple name="InitialPersonPopulation" value="3680" />
+    <Simple name="PersonMoveGlobal" value="False" />
+    <Simple name="PersonMoveActivityRnd" value="1" />
+    <Simple name="PersonMoveHomeActivityRnd" value="2" />
+    <Simple name="PersonLatencyPeriod" value="2" />
+    <Simple name="PersonInfectiousPeriod" value="9" />
+    <Simple name="PersonReinfectionImmunityPeriod" value="120" />
+    <Simple name="PersonReinfectionRate" value="100" />
+    <Simple name="InitialVirusPopulation" value="20" />
+    <Simple name="VirusMoveGlobal" value="False" />
+    <Simple name="VirusMoveActivityRnd" value="1" />
+    <Simple name="VirusMoveHomeActivityRnd" value="0" />
+    <Simple name="VirusInfectionDurationDays" value="35" />
+    <Simple name="VirusNumberReproducedPerIteration" value="3" />
+    <Simple name="VirusReproductionRate" value="100" />
+    <Simple name="MaxIterations" value="1000000" />
+    <Simple name="PersonMoveRateFrom" value="1;1;1;1;1;1;1;1;1;1" />
+    <Simple name="PersonMoveRateTo" value="20;20;20;20;20;20;20;200;200;400" />
+    <Simple name="VirusMoveRateFrom" value="1;1;1;1;1;1;1;1;1;1" />
+    <Simple name="VirusMoveRateTo" value="10;10;10;10;10;10;10;200;200;400" />
+    <Simple name="ConfigFilePath" value="C:\github\virus4spread\Dokumentation\samples\Virus4spread_Sample.XML" />
+    <Simple name="CsvFilePath" value="C:\Users\ad\Desktop\test" />
+    <Simple name="ShowSimulationGridWindow" value="True" />
+    <Simple name="XmlVirusColor" value="NamedColor:Red" />
+    <Simple name="XmlPersonsHealthyOrRecoverdColor" value="NamedColor:White" />
+    <Simple name="XmlPersonsInfectedColor" value="NamedColor:Blue" />
+    <Simple name="XmlPersonsInfectiousColor" value="NamedColor:Aqua" />
+    <Simple name="XmlPersonsRecoverdImmuneNotInfectiousColor" value="NamedColor:Lime" />
+    <Simple name="XmlEmptyCellColor" value="NamedColor:Transparent" />
+    <Complex name="LegendVisability">
+      <Properties>
+        <SingleArray name="LegendVisabilitySatus">
+          <Items>
+            <Simple value="False" />
+            <Simple value="False" />
+            <Simple value="True" />
+            <Simple value="False" />
+            <Simple value="False" />
+            <Simple value="True" />
+            <Simple value="True" />
+            <Simple value="True" />
+            <Simple value="True" />
+            <Simple value="True" />
+            <Simple value="True" />
+            <Simple value="True" />
+            <Simple value="True" />
+            <Simple value="True" />
+          </Items>
+        </SingleArray>
+      </Properties>
+    </Complex>
+    <Simple name="PhaseChartXSelectedIndex" value="0" />
+    <Simple name="PhaseChartYSelectedIndex" value="2" />
+  </Properties>
+</Complex>

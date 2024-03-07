@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0-windows;</TargetFrameworks>
+        <PlatformTarget>x64</PlatformTarget>
+        <UseWindowsForms>true</UseWindowsForms>
+        <LangVersion>11</LangVersion>
+
+        <Version>4.1.69</Version>
+        <AssemblyVersion>4.1.69.0</AssemblyVersion>
+        <FileVersion>4.1.69.0</FileVersion>
+
+        <AssemblyName>ScottPlot.WinForms</AssemblyName>
+        <RootNamespace>ScottPlot</RootNamespace>
+        <UseWindowsForms>true</UseWindowsForms>
+        <PackageIcon>icon.png</PackageIcon>
+        <Description>This package provides a Windows Forms user control to interactively display ScottPlot graphs. This package targets both .NET Framework and .NET Core.</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>plot graph data chart signal line bar heatmap scatter control interactive winforms windows forms</PackageTags>
+        <SignAssembly>true</SignAssembly>
+        <DelaySign>false</DelaySign>
+        <AssemblyOriginatorKeyFile>C:\github\certs\gitfridKeypair.snk</AssemblyOriginatorKeyFile>
+        <Authors>Scott W Harden</Authors>
+        <Company>Harden Technologies, LLC</Company>
+        <PackageProjectUrl>ScottPlot.NET</PackageProjectUrl>
+        <PackageReleaseNotes>ScottPlot.NET/changelog</PackageReleaseNotes>
+        <RepositoryUrl>github.com/ScottPlot/ScottPlot</RepositoryUrl>
+
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <Deterministic>true</Deterministic>
+        <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+        <Configurations>Debug;Release;x64</Configurations>
+        <Platforms>AnyCPU;x64</Platforms>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows|AnyCPU'">
+      <Optimize>False</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows|x64'">
+      <Optimize>False</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='x64|net8.0-windows|AnyCPU'">
+      <Optimize>True</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='x64|net8.0-windows|x64'">
+      <Optimize>True</Optimize>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ScottPlot\ScottPlot.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="icon.png" Pack="true" PackagePath="\" />
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- 
+        Logic here ensures .NET Framework apps get the older (4.6.1) package by default.
+        Upgrading may improve font rendering on Linux and MacOS, but upgrading then downgrading 
+        is associated with assembly issues that break .NET Framework projects on Windows.
+        https://github.com/ScottPlot/ScottPlot/issues/1004
+        -->
+        <PackageVersion Condition="!$(TargetFramework.StartsWith('net4'))" Include="System.Drawing.Common" Version="5.0.2" />
+        <PackageVersion Condition="$(TargetFramework.StartsWith('net4'))" Include="System.Drawing.Common" Version="4.7.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="FormsPlot.cs">
+            <SubType>UserControl</SubType>
+        </Compile>
+    </ItemGroup>
+
+</Project>
