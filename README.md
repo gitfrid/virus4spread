@@ -26,6 +26,9 @@ _________________________________________
 
 ![Virus4spread_simulation](https://github.com/gitfrid/virus4spread/blob/e7fa8e33f64a566f36b3e1b0f723a4536f8f6026/VirusSpreadDokumentation/samples/Virus4spread%20sample%20FF%20small.gif)
 <br>
+
+[Or download the animated GIF recording here](https://github.com/gitfrid/virus4spread/tree/b6541d0bf786c828a5c67cb950ebc356451870c3/VirusSpreadDokumentation/samples)
+<br>
 <br>
 <br>
 **Installation:**
