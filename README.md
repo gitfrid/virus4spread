@@ -32,11 +32,11 @@ _________________________________________
 <br>
 <br>**Prerequisite: Microsoft .Net 8 has to be installed first!** https://dotnet.microsoft.com/en-us/download
 <br>
-<br>The binary files and a program setup file can be compiled with the free Microsoft Visual Studio Community 2022 Edition. 
+<br>The binary files (about 2 MB) can be compiled with the free Microsoft Visual Studio Community 2022 Edition. 
 <br>Just download Visual Studio , open the Project and click the Bulid Menu.
 <br>
-<br>Alternative to the Setup , it is  sufficient if only the binary files are copied fom the compiled folder: 
-<br>/Virus3spread/bin/Release/net8.0-windows7.0/*.*  to any folder, and double click Virus4spread.exe to run the Simulation.
+<br>No Setup needed - it is  sufficient if the binary files are copied fom the compiled folder - : 
+<br>/Virus3spread/bin/Release/net8.0-windows7.0/*.*  to any folder, then double click Virus4spread.exe to run the Simulation.
 <br>
 <br>
 License: open source - MIT License
