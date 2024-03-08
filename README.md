@@ -44,6 +44,6 @@ _________________________________________
 <br>
 License: open source - MIT License
 <br>
-Disclaimer see link: [DISCLAIMER](https://github.com/gitfrid/virus3spread/blob/9b88d38e774d4e6cd7aeb9dab40aeffbb2d0d45e/Disclaimer.md)!
+Disclaimer see link: [DISCLAIMER](https://github.com/gitfrid/virus4spread/blob/4beca8c58021423e41bf62333898a44eda09578e/Disclaimer.md)!
 
 Just a simulation model, for use out of pure curiosity, not to force people.
