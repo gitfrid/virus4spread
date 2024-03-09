@@ -13,7 +13,7 @@ A person goes through three periods.
 Latency, infection and immunity
 <br>
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/4085fe1f396ecea13f3a53529c79b4678e848cbe/Dokumentation/ModelRules/periodes.png" width="600" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/5892c33c2a3a4e6ceb4538cf6b3e5cf4907eb2df/VirusSpreadDokumentation/ModelRules/periodes.png" width="600" height="auto">
 <br>
 <br>
 In the infectious period, a person can reproduce a defined fixed number of viruses at each iteration.

@@ -1,0 +1,92 @@
+## **Droplet VS Airborn comparison smaple**
+<br>
+
+The following example compares the droplet vs airborne theory.
+**See also DR Clare Craig's -> Book Expired**
+
+According to the droplet theory, viruses can only move locally at a small distance from an infected person. 
+<br>In the airborne theory, virus particles are carried over greater distances with the air.
+
+The Population density of the example corresponds to Munich City.
+
+## **Simulation Droplet Sample** 
+<br> wait while the simulation loads
+<br>[Or download the animated GIF recording here](https://github.com/gitfrid/virus4spread/tree/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples)<br>
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spreadMunicDroplet_small.gif" width="1200" height="auto">
+
+### **Droplet Sample** ###
+
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_MunicDroplet.png" width="800" height="auto">
+<br>
+<br>
+
+### **Droplet Sample detail 1**
+
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_MunicDroplet_detail1.png" width="800" height="auto">
+<br>
+<br>
+
+## **Simulation Airborne Sample** 
+
+<br> wait while the simulation loads
+<br>[Or download the animated GIF recording here](https://github.com/gitfrid/virus4spread/tree/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples)<br>
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spreadMunicAirborne_small.gif" width="1200" height="auto">
+
+### **Airborne Sample** ###
+
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne.png" width="800" height="auto">
+<br>
+<br>
+
+### **Airborne Sample detail 1**
+
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_detail1.png" width="800" height="auto">
+<br>
+<br>
+
+## **Settings**
+
+<br>The parameter settings of the example are listed below.
+<br>The different settings Droplet vs. Airborne are marked in yellow.
+<br>The grid 2000x2000 points with 19200 persons corresponds to the density of the city of Munich.
+
+**Important parameters Person:**
+* Latency time 2 days
+* Infection time 9 days
+* Immunity period for re-infection 155 days
+* Re-infection rate 11%.
+
+**Virus parameters:**
+* Duration of virus infection 
+<br>Is the duration during which a virus can be infectious, i.e. does not decay.
+
+* Number of viruses that multiply per iteration.
+* Virus reproduction rate 100% 
+<br>Means, during a person's infection phase, a new virus is reproduced at the person's
+current coordinate, 
+<br>approximately every other day/iteration.
+
+
+The virus parameters are purely random assumptions as I have not found any data on them.
+<br>The last two values simulate the assumption that viruses are reproduced at a certain number and rate over the infection period.
+<br>
+<br>
+
+## **Settings Droplet vs. Airborne**
+
+The different settings are marked in yellow
+
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_Settings_Munic_Airborne_VS_Droplet.png" width="800" height="auto">
+<br>
+
+## **Legend**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/legend.png" width="300" height="auto">
+<br>
+
+
+
+
+

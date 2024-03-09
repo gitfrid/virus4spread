@@ -11,65 +11,31 @@ The number of the initial virus population has hardly any influence.
 
 ## **Legend**
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/2dcb97490bbf35179c32e3890b7fa6eaa9a45a56/Dokumentation/samples/legend.png" width="300" height="auto">
+<img src="https://github.com/gitfrid/virus3spread/blob/0d245c4b31eb24705ffd4f5b62996e682f5d519f/Dokumentation/samples/legend.png" width="300" height="auto">
+<br>
+
+## **Animated GIF**
+<br>
+VirusInfectionDurationDays 35, ReinfectionRate 100 VirusNumberReproducedPerIteration 3:
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/cbb5aafd0013ba657c6d9457e5fdd46be8050021/VirusSpreadDokumentation/samples/Virus4spread%20sample%20FF%20small.gif" width="1200" height="auto">
 <br>
 
 
-## **Sample1**
+## **Sample**
 <br>
-VirusInfectionDurationDays 35, ReinfectionRate 1:
-<br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample1.png" width="800" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/cbb5aafd0013ba657c6d9457e5fdd46be8050021/VirusSpreadDokumentation/samples/Virus4spread_Sample.png" width="800" height="auto">
 <br>
 
-### **Sample1 detail 1**
+### **Sample detail 1**
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample1_detail1.png" width="800" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/cbb5aafd0013ba657c6d9457e5fdd46be8050021/VirusSpreadDokumentation/samples/Virus4spread_Sample_detail1.png" width="800" height="auto">
 <br>
 <br>
 
 ### **Sample1 detail 2**
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample1_detail2.png" width="800" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/cbb5aafd0013ba657c6d9457e5fdd46be8050021/VirusSpreadDokumentation/samples/Virus4spread_Sample_detail2.png" width="800" height="auto">
 <br>
 <br>
-
-## **Sample2**
-<br>
-VirusInfectionDurationDays 35, ReinfectionRate 2:
-<br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample2.png" width="800" height="auto">
-<br>
-<br>
-
-### **Sample2 detail 1**
-<br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample2_detail1.png" width="800" height="auto">
-<br>
-<br>
-
-### **Sample2 detail 2**
-<br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample2_detail2.png" width="800" height="auto">
-<br>
-<br>
-
-## **Sample3**
-<br>
-VirusInfectionDurationDays 35, ReinfectionRate 100, ReinfectionImmunityPeriode120:
-<br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample3.png" width="800" height="auto">
-
-### **Sample3 detail 1**
-<br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample3_detail1.png" width="800" height="auto">
-<br>
-<br>
-
-### **Sample3 detail 2**
-<br>
-<img src="https://github.com/gitfrid/virus4spread/blob/d0bd1bee0704f0fc742629d7b1651d2c95581c8d/Dokumentation/samples/Sample3_detail2.png" width="800" height="auto">
-<br>
-<br>
-
 

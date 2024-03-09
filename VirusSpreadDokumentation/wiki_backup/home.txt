@@ -11,7 +11,7 @@ So what is special about this simulation?
 Most other simulations already assume the droplet theory, this one does not.
 
 **Forked from virus2spread and implemented a very simple virus reproduction and immune system.**
-
+**With some biger Changes - see below**
 
 **For certain parameters, a damped oscillation results solely from the internal properties of this simple model.**
 <br>
@@ -29,3 +29,24 @@ As soon as I slow down the movement of the people, the big oscillations disappea
 <br>Or the plot data can be exported and saved to a CSV file.
 <br>For some parameters, such as colors, the application must be closed and reopened for the change to take effect.
 <br>
+<br>
+
+**CHANGES**
+<br>
+**Better code readability, Nuget dependencies removed, source of Nuget packages included**
+<br>
+<br>
+Only two Nuget dependencies of Scotplot remaining:
+ - System.Drawing.Common 4.7.2
+ - System.Numerics.Vectors 4.5.0
+
+Everything else is in the Source Code!
+Binarys much smaller about 2 MB.  
+Rendering changed from SkiaSharp Library to Fast Bitmap for less overhad.
+<br>
+<br>
+
+**Performance To Doos**
+<br>When using a large 3000x3000 raster field or a large number of viruses/humans, the APP no longer responds.
+<br>Long loading time when initializing FastBitmap with a large grid field.<br>
+

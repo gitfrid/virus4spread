@@ -62,7 +62,7 @@ iteration,&nbsp;</font></p>
 <p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif">by randomly selecting a tuple from a fixed set of tuples
 at each iteration.
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/c52704b540453c61cd8a9989a72645220d3db05b/Dokumentation/ModelRules/Move%20Rates.png" width="600" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/5892c33c2a3a4e6ceb4538cf6b3e5cf4907eb2df/VirusSpreadDokumentation/ModelRules/Move%20Rates.png" width="600" height="auto">
 <br>
 <br>
 At each iteration, a tuple is randomly selected from the set.
@@ -74,13 +74,13 @@ can move back to the home coordinate every x-th iteration if PersenMoveHomeActiv
 &nbsp;<br>
 Where x is an integer. This can be used to approximate the daily occupational traffic.</font></p>
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/fd4ab911b333f20b022113b2c193530088641073/Dokumentation/ModelRules/move%20range.png" width="400" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/5892c33c2a3a4e6ceb4538cf6b3e5cf4907eb2df/VirusSpreadDokumentation/ModelRules/move%20range.png" width="400" height="auto">
 <br>
 <p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB">
 <font face="Arial, sans-serif"></font></p>
 <p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif">Green arrow move back home is true</font></p>
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/fd4ab911b333f20b022113b2c193530088641073/Dokumentation/ModelRules/Global%20Movement.png" width="400" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/5892c33c2a3a4e6ceb4538cf6b3e5cf4907eb2df/VirusSpreadDokumentation/ModelRules/Global%20Movement.png" width="400" height="auto">
 <br>
 <br>
 <br>
@@ -93,7 +93,7 @@ If one or more people on the same coordinate encounter a virus, they all become
 infected.
 <br>
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/4085fe1f396ecea13f3a53529c79b4678e848cbe/Dokumentation/ModelRules/periodes.png" width="600" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/5892c33c2a3a4e6ceb4538cf6b3e5cf4907eb2df/VirusSpreadDokumentation/ModelRules/periodes.png" width="600" height="auto">
 </font></p>
 <p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><br>
 </p>
@@ -129,4 +129,4 @@ Indicates the percentage per iteration of the people with **reinfection immunity
 This means that the cycle starts again for them, by switching to the healthy or recovered status.
 <br>
 If **Person Reinfaction Rate** is **100%**, all persons pass through the immunity status, 
-<br>and can only be reinfected again, after the immunity periode.
+<br>and can be reinfected again, after the immunity periode.
