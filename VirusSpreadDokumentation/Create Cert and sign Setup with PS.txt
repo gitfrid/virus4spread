@@ -41,6 +41,8 @@ CN="Gitfrid Software CA, 0=Gitfrid, C=EU" Drifting     A8460E82898D8D3B9546A8C60
 
 $cert = Get-ChildItem Cert:\CurrentUser\My\A8460E82898D8D3B9546A8C60F53942057D5CF53
 
+$password = ConvertTo-SecureString -String Virus4spread-12 -Force -AsPlainText 
+
 $password = ConvertTo-SecureString -String Passw0rd -Force -AsPlainText 
 Export-PfxCertificate -cert "Cert:\CurrentUser\My\A8460E82898D8D3B9546A8C60F53942057D5CF53" -FilePath c:\Temp\gitfrid.pfx -Password $password
     Verzeichnis: C:\Temp
@@ -51,7 +53,7 @@ Mode                 LastWriteTime         Length Name
 -a----        07.03.2024     21:37           2702 gitfrid.pfx
 
 
-Set-AuthenticodeSignature -FilePath "C:\temp\virus4spread\virus4spread.exe" -Certificate (Get-ChildItem Cert:\CurrentUser\My\A8460E82898D8D3B9546A8C60F53942057D5CF53) -TimestampServer "http://timestamp.comodoca.com/authenticode" 
+Set-AuthenticodeSignature -FilePath "C:\virus4spreadBin\virus4spread.exe" -Certificate (Get-ChildItem Cert:\CurrentUser\My\A8460E82898D8D3B9546A8C60F53942057D5CF53) -TimestampServer "http://timestamp.comodoca.com/authenticode" 
 
 
 _____________________________________________

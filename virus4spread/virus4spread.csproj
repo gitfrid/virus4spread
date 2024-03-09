@@ -10,7 +10,12 @@
     <SignAssembly>True</SignAssembly>
     <DelaySign>False</DelaySign>
     <AssemblyOriginatorKeyFile>C:\github\certs\gitfridKeypair.snk</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>virus4spreadApp.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="virus4spreadApp.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ScottPlot4\ScottPlot.WinForms\ScottPlot.WinForms.csproj" />

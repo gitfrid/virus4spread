@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GridForm));
             Timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
@@ -46,7 +45,6 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1357, 863);
             DoubleBuffered = true;
-            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5);
             Name = "GridForm";
             Text = "GridForm";

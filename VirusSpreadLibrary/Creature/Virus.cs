@@ -21,8 +21,6 @@ public class Virus
     // move data
     private readonly VirMoveDistanceProfile virMoveProfile = new();
 
-    private bool noTrackMovement = !AppSettings.Config.TrackMovment;
-
     private uint emptyCellColor = (uint)AppSettings.Config.EmptyCellColor.ToArgb();
 
 
@@ -176,7 +174,7 @@ public class Virus
         }
         uint[] pixels = FastBmp.Pixels;
 
-        if (noTrackMovement)
+        if (!AppSettings.Config.TrackMovment)
         {
             uint resultStartVir = emptyCellColor;
             uint alphaStartVir = 0x00000000;

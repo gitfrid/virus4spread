@@ -34,8 +34,6 @@ public class Person
 
     private PersonState healthState = PersonState.PersonHealthy;
 
-    private bool noTrackMovement = !AppSettings.Config.TrackMovment;
-
     private uint emptyCellColor = (uint)AppSettings.Config.EmptyCellColor.ToArgb();
 
 
@@ -232,7 +230,7 @@ public class Person
 
         uint[] pixels = FastBmp.Pixels;
         
-        if (noTrackMovement) 
+        if (!AppSettings.Config.TrackMovment) 
         {            
             uint resultStartVir = emptyCellColor;
             uint alphaStartVir = 0x00000000;
