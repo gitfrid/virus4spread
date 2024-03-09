@@ -11,11 +11,6 @@ Since the linear sientific SIR model used, seems to differ from reality.
 <br>Most other simulations already assume the droplet theory, this one does not. 
 <br>
 <br>
-<br>
-Forked from virus3spread with simple virus propagation and immune system, better code readability, dependencies removed,<br>
-lightweight rendering using FastBitmap. Further information see [virus4spread wiki](https://github.com/gitfrid/virus4spread/wiki)
-<br>
-<br> 
 The recurring waves can possibly be explained by the properties of the coupled system.
 <br>Without having to resort to magical changes in the environment or the immune system.
 <br>
@@ -29,6 +24,10 @@ _________________________________________
 
 [Or download the animated GIF recording here](https://github.com/gitfrid/virus4spread/tree/b6541d0bf786c828a5c67cb950ebc356451870c3/VirusSpreadDokumentation/samples)
 <br>
+<br>
+<br>
+Forked from virus3spread with simple virus propagation and immune system, better code readability, nuget dependencies removed,
+lightweight rendering using FastBitmap. Further information see [virus4spread wiki](https://github.com/gitfrid/virus4spread/wiki)
 <br>
 <br>
 **Installation:**
