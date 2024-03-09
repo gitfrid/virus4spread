@@ -3,14 +3,14 @@
     <Simple name="ShowHelperSettings" value="False" />
     <Complex name="Form_Config_WindowLocation">
       <Properties>
-        <Simple name="X" value="1560" />
-        <Simple name="Y" value="365" />
+        <Simple name="X" value="0" />
+        <Simple name="Y" value="0" />
       </Properties>
     </Complex>
     <Complex name="Form_Config_WindowSize">
       <Properties>
         <Simple name="Width" value="2011" />
-        <Simple name="Height" value="1403" />
+        <Simple name="Height" value="2023" />
       </Properties>
     </Complex>
     <Complex name="PlotForm_WindowLocation">
@@ -50,32 +50,32 @@
       </Properties>
     </Complex>
     <Simple name="AppVersion" value="1.0.0.0" />
-    <Simple name="GridMaxX" value="875" />
-    <Simple name="GridMaxY" value="875" />
+    <Simple name="GridMaxX" value="2000" />
+    <Simple name="GridMaxY" value="2000" />
     <Simple name="GridFormTimer" value="1" />
     <Simple name="TrackMovment" value="False" />
     <Simple name="PopulationDensityColoring" value="False" />
-    <Simple name="InitialPersonPopulation" value="3680" />
+    <Simple name="InitialPersonPopulation" value="19600" />
     <Simple name="PersonMoveGlobal" value="False" />
     <Simple name="PersonMoveActivityRnd" value="1" />
     <Simple name="PersonMoveHomeActivityRnd" value="2" />
     <Simple name="PersonLatencyPeriod" value="2" />
     <Simple name="PersonInfectiousPeriod" value="9" />
-    <Simple name="PersonReinfectionImmunityPeriod" value="120" />
-    <Simple name="PersonReinfectionRate" value="100" />
+    <Simple name="PersonReinfectionImmunityPeriod" value="155" />
+    <Simple name="PersonReinfectionRate" value="11" />
     <Simple name="InitialVirusPopulation" value="20" />
-    <Simple name="VirusMoveGlobal" value="False" />
+    <Simple name="VirusMoveGlobal" value="True" />
     <Simple name="VirusMoveActivityRnd" value="1" />
     <Simple name="VirusMoveHomeActivityRnd" value="0" />
-    <Simple name="VirusInfectionDurationDays" value="35" />
-    <Simple name="VirusNumberReproducedPerIteration" value="3" />
+    <Simple name="VirusInfectionDurationDays" value="4" />
+    <Simple name="VirusNumberReproducedPerIteration" value="1" />
     <Simple name="VirusReproductionRate" value="100" />
     <Simple name="MaxIterations" value="1000000" />
     <Simple name="PersonMoveRateFrom" value="1;1;1;1;1;1;1;1;1;1" />
     <Simple name="PersonMoveRateTo" value="20;20;20;20;20;20;20;200;200;400" />
     <Simple name="VirusMoveRateFrom" value="1;1;1;1;1;1;1;1;1;1" />
-    <Simple name="VirusMoveRateTo" value="10;10;10;10;10;10;10;200;200;400" />
-    <Simple name="ConfigFilePath" value="C:\github\virus4spread\Dokumentation\samples\Virus4spread_Sample.XML" />
+    <Simple name="VirusMoveRateTo" value="20;20;20;20;20;20;20;200;200;400" />
+    <Simple name="ConfigFilePath" value="C:\github\virus4spread\Dokumentation\samples\Virus4spread_MunicAirborne.XML" />
     <Simple name="CsvFilePath" value="C:\Users\ad\Desktop\test" />
     <Simple name="ShowSimulationGridWindow" value="True" />
     <Simple name="XmlVirusColor" value="NamedColor:Red" />

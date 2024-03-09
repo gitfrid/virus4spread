@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             tabControl = new TabControl();
             tabPage1 = new TabPage();
             splitContainer1 = new SplitContainer();
@@ -199,7 +198,6 @@
             AutoSize = true;
             ClientSize = new Size(1529, 774);
             Controls.Add(tabControl);
-            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
             Text = "virus4spread MainForm";
             FormClosing += MainForm_FormClosing;

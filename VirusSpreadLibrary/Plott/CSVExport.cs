@@ -69,7 +69,10 @@ namespace VirusSpreadLibrary.Plott
                 }
 
                 while (num >= CurrentRow.Count) //fill the current row with nulls until we have the right size
+                {
                     CurrentRow.Add(null);
+                }
+                    
 
                 CurrentRow[num] = MakeValueCsvFriendly(value); //set the value at position
             }
@@ -176,13 +179,13 @@ namespace VirusSpreadLibrary.Plott
         }
 
         // Exports to a file
-        public void ExportToFile(string path, Encoding encoding = null)
+        public void ExportToFile(string path, Encoding? encoding = null)
         {
             File.WriteAllBytes(path, ExportToBytes(encoding ?? _defaultEncoding));
         }
 
         // Exports as raw bytes.
-        public byte[] ExportToBytes(Encoding encoding = null)
+        public byte[] ExportToBytes(Encoding? encoding = null)
         {
             using MemoryStream ms = new();
             encoding ??= _defaultEncoding;
