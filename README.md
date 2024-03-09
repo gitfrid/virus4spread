@@ -7,15 +7,17 @@ To investigate annually recurring waves from the momentum of a chaotic system, a
 Since the linear sientific SIR model used, seems to differ from reality.
 <br>
 <br> 
-<br>So what is special about this simulation?
-<br>Most other simulations already assume the droplet theory, this one does not. 
+<br>So what is special about this simulation? Most other simulations already assume the droplet theory, this one does not. 
+<br>
+**Droplet VS Airborn ‐ Munic City comparison example see**
+[Droplet VS Airboren](https://github.com/gitfrid/virus4spread/wiki/Droplet-VS-Airborn-%E2%80%90-Munic-City-comparison)
 <br>
 <br>
 The recurring waves can possibly be explained by the properties of the coupled system.
 <br>Without having to resort to magical changes in the environment or the immune system.
 <br>
 <br>**Recurring waves simulation - with parameters from Virus4spread_Sample.xml.**
-<br>**Wait until the recorded simulation is loaded, then click to start :**
+<br>wait while the simulation loads, then click to start:
 _________________________________________
 <br>
 
@@ -26,10 +28,6 @@ _________________________________________
 <br>
 <br>
 <br>
-Forked from virus3spread with simple virus propagation and immune system, better code readability, nuget dependencies removed,
-lightweight rendering using FastBitmap. Further information see [virus4spread wiki](https://github.com/gitfrid/virus4spread/wiki)
-<br>
-<br>
 **Installation:**
 <br>
 <br>**Prerequisite: Microsoft .Net 8 has to be installed first!** https://dotnet.microsoft.com/en-us/download
@@ -38,8 +36,8 @@ lightweight rendering using FastBitmap. Further information see [virus4spread wi
 <br>Just download Visual Studio , open the Project and click the Bulid Menu.
 <br>
 <br>No Setup needed - it is  sufficient if the binary files are copied fom the compiled folder - : 
-<br>/Virus3spread/bin/Release/net8.0-windows7.0/*.*  to any folder, then double click Virus4spread.exe to run the Simulation.
-<br>
+<br>/Virus4spread/bin/Release/net8.0-windows10/*.*  to any folder, then double click Virus4spread.exe to run the Simulation.
+<br>Further information see [virus4spread wiki](https://github.com/gitfrid/virus4spread/wiki)
 <br>
 License: open source - MIT License
 <br>
