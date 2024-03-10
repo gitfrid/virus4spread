@@ -35,12 +35,16 @@ _________________________________________
 <br>The binary files (about 2 MB) can be compiled with the free Microsoft Visual Studio Community 2022 Edition. 
 <br>Just download Visual Studio , download virus4spread source, open the Project and click the Bulid Menu.
 <br>
-<br>**No Setup needed** - it is  sufficient if the binary files are copied fom the compiled folder 
+<br>No Setup needed - it is  sufficient if the binary files are copied fom the compiled folder 
 <br>../Virus4spread/bin/Release/net8.0-windows to any folder, then double click Virus4spread.exe to run the Simulation.
 <br>Further information see [virus4spread wiki](https://github.com/gitfrid/virus4spread/wiki)
 <br>
-License: open source - MIT License
+<br>
+<br>
+**License:** 
+<br>open source - MIT License
+<br>
 <br>
 Disclaimer see link: [DISCLAIMER](https://github.com/gitfrid/virus4spread/blob/4beca8c58021423e41bf62333898a44eda09578e/Disclaimer.md)!
-
+<br>
 Just a simulation model, for use out of pure curiosity, not to force people.
