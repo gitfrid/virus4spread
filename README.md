@@ -7,10 +7,11 @@ To investigate annually recurring waves from the momentum of a chaotic system, a
 Since the linear sientific SIR model used, seems to differ from reality.
 <br>
 <br> 
-<br>So what is special about this simulation? Most other simulations already assume the droplet theory, this one does not. 
+<br>So what is special about this simulation? 
+<br>Most other simulations already assume the droplet theory, this one does not. 
 <br>
 **Droplet VS Airborn ‐ Munic City comparison example see**
-[Droplet VS Airboren](https://github.com/gitfrid/virus4spread/wiki/Droplet-VS-Airborn-%E2%80%90-Munic-City-comparison)
+[Droplet VS Airborn](https://github.com/gitfrid/virus4spread/wiki/Droplet-VS-Airborn-%E2%80%90-Munic-City-comparison)
 <br>
 <br>
 The recurring waves can possibly be explained by the properties of the coupled system.
