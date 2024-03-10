@@ -1,0 +1,23 @@
+## **Damped example Munic-Airborne**
+<br>
+
+**All oscillations ocuuring seem to be damped**
+<br>**Assuming one iteration as one day, the example would show 34 years**
+
+<br>
+
+## **Sample Munic Airborne damped**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/f69cc96bebd1c71153e52cd4b1bedd2fb5f88919/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_damped.png" width="1200" height="auto">
+<br>
+
+## **Sample Munic Airborne damped detail 1**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/f69cc96bebd1c71153e52cd4b1bedd2fb5f88919/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_damped_detail1.png" width="1200" height="auto">
+<br>
+<br>
+
+## **Legend**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/legend.png" width="300" height="auto">
+<br>

@@ -1,0 +1,24 @@
+## **Lockdown example Munic-Airborne**
+<br>
+If the movement of people is almost completely restricted, the oscillation is interrupted and the curve drops sharply, 
+<br>but as soon as movement resumes, it rises sharply in return.
+<br>
+
+**What is amazing is that it seems as if the system remembers the intervention, as it now continues to oscillate with two peaks.**
+<br>
+
+## **Sample Munic Airborne Lockdown**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/0ea9ef01b0bc89982458ef008d8576a760086c58/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_Lockdown.png" width="800" height="auto">
+<br>
+
+## **Sample Munic Airborne Lockdown detail 1**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/0ea9ef01b0bc89982458ef008d8576a760086c58/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_Lockdown_detail1.png" width="800" height="auto">
+<br>
+<br>
+
+## **Legend**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/legend.png" width="300" height="auto">
+<br>
