@@ -21,13 +21,14 @@ public class Virus
     // move data
     private readonly VirMoveDistanceProfile virMoveProfile = new();
 
-    private uint emptyCellColor = (uint)AppSettings.Config.EmptyCellColor.ToArgb();
+    private readonly uint emptyCellColor = (uint)AppSettings.Config.EmptyCellColor.ToArgb();
 
 
     public Point StartGridCoordinate { get; private set; }
     public Point EndGridCoordinate { get; private set; }
     public Point HomeGridCoordinate { get; private set; }
-    
+
+    private bool hasMoved = false;
     public bool DoMove()
     {
         int moveActivity = AppSettings.Config.VirusMoveActivityRnd;
@@ -98,6 +99,7 @@ public class Virus
         // depending on the spcified range in settings of virMoveProfile and VirusMoveGlobal var
         if (DoMove())
         {
+            hasMoved = true;
             if (AppSettings.Config.VirusMoveGlobal)
             {
                 if (DoMoveHome())
@@ -120,6 +122,9 @@ public class Virus
                     MoveLocal();
                 }
             }
+        } else 
+        {
+            hasMoved = false;
         }
     }
 
@@ -153,7 +158,7 @@ public class Virus
         System.Drawing.Point startPoint = StartGridCoordinate;
         System.Drawing.Point endPoint = EndGridCoordinate;
         // calc move distance
-        if (startPoint == endPoint)
+        if (startPoint == endPoint || hasMoved == false)
         {
             return 0;
         }

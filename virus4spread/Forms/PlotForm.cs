@@ -1,3 +1,10 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Linq;
+
 using ScottPlot;
 using ScottPlot.Renderable;
 using ScottPlot.Plottable;

@@ -1,4 +1,7 @@
-﻿namespace virus4spread
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace virus4spread
 {
     partial class PlotForm
     {

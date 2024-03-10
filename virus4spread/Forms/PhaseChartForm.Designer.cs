@@ -1,4 +1,7 @@
-﻿namespace virus4spread.Forms
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace virus4spread.Forms
 {
     partial class PhaseChartForm
     {

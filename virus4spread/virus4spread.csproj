@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <PublishSingleFile>true</PublishSingleFile>
     <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
     <PlatformTarget>x64</PlatformTarget>
     <SignAssembly>True</SignAssembly>
     <DelaySign>False</DelaySign>
@@ -16,6 +16,14 @@
     <StartupObject>virus4spread.Program</StartupObject>
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <ErrorReport>none</ErrorReport>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
   </PropertyGroup>
 
   <ItemGroup>

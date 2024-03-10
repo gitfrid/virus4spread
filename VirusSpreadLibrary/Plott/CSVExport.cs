@@ -1,5 +1,7 @@
 ﻿/*
- CsvExport
+ original Code - but died some code changes below 
+  
+ CsvExport 
  Very simple CSV-export tool for C#
  Repo: github.com/jitbit/CsvExport
  
@@ -70,7 +72,7 @@ namespace VirusSpreadLibrary.Plott
 
                 while (num >= CurrentRow.Count) //fill the current row with nulls until we have the right size
                 {
-                    CurrentRow.Add(null);
+                    CurrentRow.Add(null!);
                 }
                     
 
@@ -95,7 +97,7 @@ namespace VirusSpreadLibrary.Plott
                     AddRow();
                     foreach (var value in values)
                     {
-                        this[value.Name] = value.GetValue(obj, null);
+                        this[value.Name] = value.GetValue(obj, null)!;
                     }
                 }
             }
@@ -129,7 +131,14 @@ namespace VirusSpreadLibrary.Plott
             }
             else
             {
-                output = value.ToString().Trim();
+                if (value.ToString() is string s)
+                {
+                    output = s.ToString().Trim() ?? "";
+                }
+                else
+                {
+                    output = "";
+                }
             }
 
             if (output.Length > 30000) //cropping value for stupid Excel

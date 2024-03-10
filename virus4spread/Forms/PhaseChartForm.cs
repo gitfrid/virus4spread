@@ -1,4 +1,11 @@
-﻿using ScottPlot;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Drawing;
+using System.Linq;
+using System.Windows.Forms;
+
+using ScottPlot;
 using ScottPlot.Plottable;
 using VirusSpreadLibrary.Plott;
 using VirusSpreadLibrary.AppProperties;

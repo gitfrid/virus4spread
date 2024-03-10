@@ -1,9 +1,12 @@
-﻿
+﻿using System;
+using System.Drawing;
+using System.Threading;
 using System.ComponentModel;
 using VirusSpreadLibrary.AppProperties;
 using VirusSpreadLibrary.AppProperties.PropertyGridExt;
 using VirusSpreadLibrary.SpreadModel;
 using virus4spread.Forms;
+using System.Windows.Forms;
 
 
 namespace virus4spread;

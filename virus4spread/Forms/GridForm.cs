@@ -1,4 +1,9 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Drawing;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+using System.Diagnostics;
 using VirusSpreadLibrary.SpreadModel;
 using VirusSpreadLibrary.AppProperties;
 using System.Drawing.Drawing2D;
@@ -14,7 +19,7 @@ namespace virus4spread.Forms
         private readonly int maxY;
         private int x, y;
         private float scale;
-        private bool noTrackMovement = !AppSettings.Config.TrackMovment;
+        private readonly bool noTrackMovement = !AppSettings.Config.TrackMovment;
 
         public GridForm(Simulation ModelSimulation, int MaxX, int MaxY)
         {

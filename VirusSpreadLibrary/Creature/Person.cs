@@ -28,13 +28,15 @@ public class Person
     private Point EndGridCoordinate { get; set; }
     private Point HomeGridCoordinate { get; set; }
 
+    private bool hasMoved = false;
+
     private int infectionCounter = 0;
 
     private int healthCounter = 0;
 
     private PersonState healthState = PersonState.PersonHealthy;
 
-    private uint emptyCellColor = (uint)AppSettings.Config.EmptyCellColor.ToArgb();
+    private readonly uint emptyCellColor = (uint)AppSettings.Config.EmptyCellColor.ToArgb();
 
 
     public int Age { get; set; }
@@ -122,6 +124,7 @@ public class Person
         // depending on the spcified range in settings of persMoveProfile and PersonMoveGlobal var
         if (DoMove())
         {
+            hasMoved = true;
             if (AppSettings.Config.PersonMoveGlobal)
             {
                 if (DoMoveHome())
@@ -144,6 +147,10 @@ public class Person
                     MoveLocal();
                 }
             }
+        }
+        else
+        {
+            hasMoved = false;
         }
     }
 
@@ -178,7 +185,7 @@ public class Person
         System.Drawing.Point startPoint = StartGridCoordinate;
         System.Drawing.Point endPoint = EndGridCoordinate;
         // calc move distance
-        if (startPoint == endPoint)
+        if (startPoint == endPoint || hasMoved == false)
         {
             return 0;
         }
