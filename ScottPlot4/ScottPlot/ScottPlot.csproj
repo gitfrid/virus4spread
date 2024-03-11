@@ -78,12 +78,7 @@
         <None Include="icon.ico" Pack="true" PackagePath="\" />
         <None Include="README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
-
-    <!-- MacOS requires a special DLL to use System.Drawing -->
-    <ItemGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::OSX)))' == 'true'">
-        <PackageReference Include="runtime.osx.10.10-x64.CoreCompat.System.Drawing" Version="5.8.64" />
-    </ItemGroup>
-
+   
     <!-- .NET Framework 4.6.1 requires packages to support C# 7 features -->
     <ItemGroup Condition="'$(TargetFramework)' == 'net462'">
         <PackageReference Include="System.ValueTuple" Version="4.5.0" />
