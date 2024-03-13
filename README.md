@@ -11,7 +11,7 @@ Since the linear sientific SIR model used, seems to differ from reality.
 <br>Most other simulations already assume the droplet theory, this one does not. 
 <br>
 **Droplet VS Airborn ‐ Munic City comparison example see**
-[Droplet VS Airborn](https://github.com/gitfrid/virus4spread/wiki/Droplet-VS-Airborn-%E2%80%90-Munic-City-comparison)
+[Droplet VS Airborn](https://github.com/gitfrid/virus4spread/wiki/4.-Droplet-VS-Airborn-%E2%80%90-Munic-City-comparison)
 <br>
 <br>
 The recurring waves can possibly be explained by the properties of the coupled system.
