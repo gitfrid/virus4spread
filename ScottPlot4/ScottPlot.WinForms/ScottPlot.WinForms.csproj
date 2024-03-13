@@ -40,15 +40,7 @@
       <Optimize>False</Optimize>
     </PropertyGroup>
 
-    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows|x64'">
-      <Optimize>False</Optimize>
-    </PropertyGroup>
-
     <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='x64|net8.0-windows|AnyCPU'">
-      <Optimize>True</Optimize>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='x64|net8.0-windows|x64'">
       <Optimize>True</Optimize>
     </PropertyGroup>
 

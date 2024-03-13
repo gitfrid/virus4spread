@@ -27,8 +27,12 @@ You can also export/compute file using any of following method:
 	File(myExport.ExportToBytes(), "text/csv", "results.csv");
 */
 
+using System;
+using System.IO;
+using System.Linq;
 using System.Data.SqlTypes;
 using System.Text;
+using System.Collections.Generic;
 
 namespace VirusSpreadLibrary.Plott
 {

@@ -1,4 +1,6 @@
-﻿using VirusSpreadLibrary.AppProperties.PropertyGridExt;
+﻿using System;
+
+using VirusSpreadLibrary.AppProperties.PropertyGridExt;
 using VirusSpreadLibrary.AppProperties;
 
 namespace VirusSpreadLibrary.SpreadModel

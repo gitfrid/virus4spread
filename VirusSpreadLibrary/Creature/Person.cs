@@ -1,9 +1,12 @@
-﻿using VirusSpreadLibrary.AppProperties;
+﻿using System;
+using System.Drawing;
+
+
+using VirusSpreadLibrary.AppProperties;
 using VirusSpreadLibrary.Creature.Rates;
 using VirusSpreadLibrary.SpreadModel;
 using VirusSpreadLibrary.Enum;
 using VirusSpreadLibrary.Grid;
-using FastGraphics;
 
 
 namespace VirusSpreadLibrary.Creature;

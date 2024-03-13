@@ -1,4 +1,10 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.IO;
+using System.Collections.Generic;
+
+using System.ComponentModel;
 using System.Drawing.Design;
 using System.Reflection;
 using System.Xml.Serialization;

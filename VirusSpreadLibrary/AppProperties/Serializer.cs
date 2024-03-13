@@ -1,4 +1,8 @@
-﻿
+﻿using System;
+using System.IO;
+using System.Drawing;
+using System.Windows.Forms;
+
 using Polenter.Serialization;
 
 namespace VirusSpreadLibrary.AppProperties;

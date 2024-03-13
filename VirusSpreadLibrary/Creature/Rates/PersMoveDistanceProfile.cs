@@ -1,4 +1,6 @@
-﻿using VirusSpreadLibrary.AppProperties;
+﻿using System;
+
+using VirusSpreadLibrary.AppProperties;
 using VirusSpreadLibrary.AppProperties.PropertyGridExt;
 using VirusSpreadLibrary.SpreadModel;
 using Point = System.Drawing.Point;

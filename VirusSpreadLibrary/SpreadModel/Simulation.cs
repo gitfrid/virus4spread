@@ -2,7 +2,7 @@
 using VirusSpreadLibrary.Creature;
 using VirusSpreadLibrary.AppProperties;
 using VirusSpreadLibrary.Plott;
-using FastGraphics;
+using VirusSpreadLibrary.Grid;
 
 
 

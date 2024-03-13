@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.Design;
+﻿using System;
+
+using System.ComponentModel.Design;
+using System.Windows.Forms;
 
 namespace VirusSpreadLibrary.AppProperties.PropertyGridExt;
 

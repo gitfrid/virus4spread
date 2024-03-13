@@ -1,4 +1,7 @@
-﻿using VirusSpreadLibrary.Creature;
+﻿using System;
+using System.Collections.Generic;
+
+using VirusSpreadLibrary.Creature;
 using VirusSpreadLibrary.AppProperties;
 using VirusSpreadLibrary.Enum;
 namespace VirusSpreadLibrary.Plott;

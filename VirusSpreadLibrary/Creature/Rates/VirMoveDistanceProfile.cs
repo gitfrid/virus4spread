@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+
 using VirusSpreadLibrary.AppProperties;
 using VirusSpreadLibrary.AppProperties.PropertyGridExt;
 using VirusSpreadLibrary.SpreadModel;

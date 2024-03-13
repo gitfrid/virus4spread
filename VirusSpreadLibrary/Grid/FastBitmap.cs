@@ -1,7 +1,9 @@
-﻿using System.Drawing.Imaging;
+﻿using System;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 
-namespace FastGraphics
+namespace VirusSpreadLibrary.Grid
 {
   // source from: github.com/KarlPage/FastGraphics 
   // uses pinned memory and direct array access to manipulate bitmap bits.

@@ -1,4 +1,8 @@
-﻿namespace VirusSpreadLibrary.Creature.Rates;
+﻿using System;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace VirusSpreadLibrary.Creature.Rates;
 
 public class PersBirthRateByAgeGroup
 {

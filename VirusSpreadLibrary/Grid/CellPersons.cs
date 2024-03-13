@@ -1,5 +1,5 @@
-﻿using VirusSpreadLibrary.Creature;
-
+﻿using System.Collections.Generic;
+using VirusSpreadLibrary.Creature;
 
 namespace VirusSpreadLibrary.Grid
 {

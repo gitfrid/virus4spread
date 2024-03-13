@@ -1,4 +1,9 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System;
+using System.Windows.Forms;
+
+
+using System.ComponentModel;
 using System.Reflection;
 using System.Text;
 
@@ -43,7 +48,7 @@ public class EventsListBox : ListBox
 
     public void AddEvent(Control sender, string eventName, EventArgs args)
     {
-        Dictionary<string, object> dictionary = new();
+        Dictionary<string, object> dictionary = [];
 
       foreach (PropertyInfo pi in args.GetType().GetProperties())
       {

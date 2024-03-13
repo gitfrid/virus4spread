@@ -1,4 +1,5 @@
-﻿
+﻿using System.Collections.Generic;
+
 namespace VirusSpreadLibrary.Creature;
 
 public class PersonList

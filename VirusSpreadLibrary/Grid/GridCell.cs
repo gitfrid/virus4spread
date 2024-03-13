@@ -1,4 +1,5 @@
-﻿
+﻿using System.Drawing;
+
 using VirusSpreadLibrary.Creature;
 using VirusSpreadLibrary.Enum;
 

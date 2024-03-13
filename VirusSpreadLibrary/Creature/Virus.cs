@@ -1,4 +1,6 @@
-﻿using FastGraphics;
+﻿using System;
+using System.Drawing;
+
 using VirusSpreadLibrary.AppProperties;
 using VirusSpreadLibrary.Creature.Rates;
 using VirusSpreadLibrary.Grid;
