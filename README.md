@@ -18,7 +18,7 @@ The recurring waves can possibly be explained by the properties of the coupled s
 <br>Without having to resort to changes to the environment or immune system.
 <br>
 <br>**Recurring waves simulation - with parameters from Virus4spread_Sample.xml.**
-<br>wait while the simulation loads, then click to start:
+<br>Wait while the simulation loads, then click to start:
 _________________________________________
 <br>
 
@@ -28,7 +28,12 @@ _________________________________________
 [Or download the animated GIF recording here](https://github.com/gitfrid/virus4spread/tree/b6541d0bf786c828a5c67cb950ebc356451870c3/VirusSpreadDokumentation/samples)
 <br>
 <br>
+**Screenshot**
 <br>
+<img src="https://github.com/gitfrid/virus4spread/blob/cbb5aafd0013ba657c6d9457e5fdd46be8050021/VirusSpreadDokumentation/samples/Virus4spread_Sample.png" width="800" height="auto">
+<br>
+<br>
+
 **Installation:**
 <br>
 <br>**Prerequisite: Microsoft .Net 8 has to be installed first!** https://dotnet.microsoft.com/en-us/download
