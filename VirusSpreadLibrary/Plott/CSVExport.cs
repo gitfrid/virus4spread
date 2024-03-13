@@ -66,7 +66,8 @@ namespace VirusSpreadLibrary.Plott
         {
             set
             {
-                // Keep track of the field names
+                // Keep
+                // of the field names
                 if (!_fields.TryGetValue(field, out int num)) //get the field's index
                 {
                     //not found - add new

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net8.0-windows;</TargetFrameworks>
+        <TargetFrameworks>net8.0-windows</TargetFrameworks>
         <LangVersion>11</LangVersion>
 
         <OutputType>Library</OutputType>
@@ -26,7 +26,7 @@
         <DocumentationFile>ScottPlot.xml</DocumentationFile>
         <NoWarn>1591</NoWarn>
         <DebugType>portable</DebugType>
-        <IncludeSymbols>true</IncludeSymbols>
+        <IncludeSymbols>False</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
         <Deterministic>true</Deterministic>
@@ -39,14 +39,23 @@
         <NoWarn>RS0041;CS1591;RS0027;RS0026</NoWarn>
         <Configurations>Debug;Release;x64</Configurations>
         <Platforms>AnyCPU;x64</Platforms>
+        <GenerateDocumentationFile>False</GenerateDocumentationFile>
 
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='x64|net8.0-windows|AnyCPU'">
-      <Optimize>True</Optimize>
+      <Optimize>False</Optimize>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='x64|net8.0-windows|x64'">
+      <Optimize>False</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows|AnyCPU'">
+      <Optimize>True</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows|x64'">
       <Optimize>True</Optimize>
     </PropertyGroup>
 
@@ -63,6 +72,8 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
+        <PackageReference Include="System.Drawing.Common" Version="4.7.2" />
+        <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
 
         <!-- Code analysis -->
 
@@ -72,8 +83,6 @@
             is associated with assembly issues that break .NET Framework projects on Windows.
             https://github.com/ScottPlot/ScottPlot/issues/1004
         -->
-        <PackageReference Include="System.Drawing.Common" Version="4.7.2" />
-        <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
         <None Include="icon.png" Pack="true" PackagePath="\" />
         <None Include="icon.ico" Pack="true" PackagePath="\" />
         <None Include="README.md" Pack="true" PackagePath="\" />

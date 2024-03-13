@@ -170,6 +170,7 @@ public partial class MainForm : Form
     }
     private void ConfigurationPropertyGrid_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
     {
+        gridForm.NoTrackMovement = !AppSettings.Config.TrackMovment;
         AppSettings.Config.Setting.Save();
     }
     private void ConfigurationPropertyGrid_CollectionFormClosed(object s, FormClosedEventArgs e)

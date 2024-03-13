@@ -17,9 +17,11 @@ namespace virus4spread.Forms
         readonly Stopwatch watch = Stopwatch.StartNew();
         private readonly int maxX;
         private readonly int maxY;
+        private bool noTrackMovement =!AppSettings.Config.TrackMovment;
+
         private int x, y;
         private float scale;
-        private readonly bool noTrackMovement = !AppSettings.Config.TrackMovment;
+
 
         public GridForm(Simulation ModelSimulation, int MaxX, int MaxY)
         {
@@ -51,6 +53,11 @@ namespace virus4spread.Forms
             Timer1.Enabled = true;
         }
 
+        public bool NoTrackMovement 
+        { 
+            set => noTrackMovement = value; 
+        }
+
         private void Timer1_Tick(object sender, EventArgs e)
         {
             if (noTrackMovement) 
@@ -59,8 +66,7 @@ namespace virus4spread.Forms
             }            
             simulation.NextIteration();
             OnIdle();
-        }
-
+        }        
         private void UpdateBenchmarkMessage()
         {
             Text = $"virus4spread Iteration: {simulation.Iteration} [{Width}x{Height}] " +
