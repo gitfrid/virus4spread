@@ -1,0 +1,28 @@
+## **Lockdown permanent example Munic Airborne**
+<br>
+If the movement of people is almost completely permanent restricted, the oscillation is interrupted and the curve drops sharply, 
+Then the oscillation returns at lower level.
+<br>
+<br>
+
+## **Munic Airborne Lockdown permanent**
+<br>PersonMoveActivityRandom = 4
+<img src="https://github.com/gitfrid/virus4spread/blob/a4c68873572341736928510a92f57f600aa475a0/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_Lockdown_permanent.png" width="1200" height="auto">
+<br>
+
+## **Munic Airborne Lockdown permanent detail 1**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/a4c68873572341736928510a92f57f600aa475a0/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_Lockdown_permanent_detail1.png" width="1200" height="auto">
+<br>
+<br>
+
+## **Munic Airborne Lockdown permanent detail 2**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/a4c68873572341736928510a92f57f600aa475a0/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_Lockdown_permanent_detail2.png" width="1200" height="auto">
+<br>
+<br>
+
+## **Legend**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/legend.png" width="300" height="auto">
+<br>

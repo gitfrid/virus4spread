@@ -2,7 +2,7 @@
 
 At the beginning, a fixed number of viruses and people are randomly distributed on a rectangular grid field.
 
-Viruses and persons can move randomly on the rectangular grid in a defined square area.
+Viruses and persons can move randomly on the rectangular grid in a defined circular area.
 
 Several people or viruses can be located on one coordinate of the grid field.
 

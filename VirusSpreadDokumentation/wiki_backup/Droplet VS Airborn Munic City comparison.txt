@@ -10,39 +10,51 @@ According to the droplet theory, viruses can only move locally at a small distan
 The Population density of the example corresponds to Munich City.
 
 ## **Simulation Droplet Sample** 
-<br> wait while the simulation loads
+<br>Wait while the simulation loads, then click to start:
 <br>[Or download the animated GIF recording here](https://github.com/gitfrid/virus4spread/tree/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples)<br>
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spreadMunicDroplet_small.gif" width="1200" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples/Virus4spreadMunicDroplet_small.gif" width="1400" height="auto">
 
 ### **Droplet Sample** ###
 
-<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_MunicDroplet.png" width="800" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples/Virus4spread_MunicDroplet.png" width="1200" height="auto">
 <br>
 <br>
 
 ### **Droplet Sample detail 1**
 
-<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_MunicDroplet_detail1.png" width="800" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples/Virus4spread_MunicDroplet_detail1.png" width="1200" height="auto">
+<br>
+<br>
+
+### **Droplet Sample detail 2**
+
+<img src="https://github.com/gitfrid/virus4spread/blob/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples/Virus4spread_MunicDroplet_detail2.png" width="1200" height="auto">
 <br>
 <br>
 
 ## **Simulation Airborne Sample** 
 
 <br> wait while the simulation loads
-<br>[Or download the animated GIF recording here](https://github.com/gitfrid/virus4spread/tree/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples)<br>
+<br>[Or download the animated GIF recording here](https://github.com/gitfrid/virus4spread/tree/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples)<br>
 <br>
-<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spreadMunicAirborne_small.gif" width="1200" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples/Virus4spreadMunicAirborne_small.gif" width="1200" height="auto">
 
 ### **Airborne Sample** ###
 
-<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne.png" width="800" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne.png" width="1200" height="auto">
 <br>
 <br>
 
 ### **Airborne Sample detail 1**
 
-<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_detail1.png" width="800" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_detail1.png" width="1200" height="auto">
+<br>
+<br>
+
+### **Airborne Sample detail 2**
+
+<img src="https://github.com/gitfrid/virus4spread/blob/8b5badf38fcfb247020ee8ea965aab84e531864b/VirusSpreadDokumentation/samples/Virus4spread_MunicAirborne_detail2.png" width="1200" height="auto">
 <br>
 <br>
 
@@ -78,7 +90,7 @@ The virus parameters are purely random assumptions as I have not found any data 
 
 The different settings are marked in yellow
 
-<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_Settings_Munic_Airborne_VS_Droplet.png" width="800" height="auto">
+<img src="https://github.com/gitfrid/virus4spread/blob/1a2281b5fdc28ca751107b635b76ba9fab134441/VirusSpreadDokumentation/samples/Virus4spread_Settings_Munic_Airborne_VS_Droplet.png" width="1200" height="auto">
 <br>
 
 ## **Legend**
