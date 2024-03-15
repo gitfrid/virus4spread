@@ -1,5 +1,0 @@
-Fast Bitmap
-https://www.codeproject.com/Articles/5129265/Using-Pointers-in-Image-Processing
-
-
-https://github.com/napuzba/fast-bitmap/tree/master/src
