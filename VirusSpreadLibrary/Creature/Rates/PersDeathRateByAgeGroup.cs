@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 namespace VirusSpreadLibrary.Creature.Rates;
 
+// not implemented yet
 public class PersDeathRateByAgeGroup
 {
 

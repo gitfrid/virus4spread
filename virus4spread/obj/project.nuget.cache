@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "bCannpcGR7N5DnwqPC9BwZ8ZAQ2+lltM9eV6n9VeBCRGOXc7jl4MgJ38GD8LDtw209E0epO/f+GaZE7mm6cWXA==",
+  "success": true,
+  "projectFilePath": "C:\\github\\virus4spread\\virus4spread\\virus4spread.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ad\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.2\\microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
+    "C:\\Users\\ad\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.4\\microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "C:\\Users\\ad\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ad\\.nuget\\packages\\system.drawing.common\\4.7.2\\system.drawing.common.4.7.2.nupkg.sha512",
+    "C:\\Users\\ad\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
