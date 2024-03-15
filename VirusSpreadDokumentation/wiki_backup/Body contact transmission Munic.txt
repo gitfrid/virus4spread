@@ -1,0 +1,24 @@
+## **Body contact transmission Munic**
+<br>
+<br>If the virus itself does not move, as in the example, then it must be transmitted between moving people over very short distances, 
+<br>e.g. through physical contact. 
+<br>
+<br>This curve rises much more slowly than with airborne transmission, it reaches a constant horizontal value and does not oscillate. 
+<br>
+<br>
+
+## **Munic Body contact transmission**
+<br
+<img src="https://github.com/gitfrid/virus4spread/blob/8f6757baed09415517d4683454545ff4f29d9ef3/VirusSpreadDokumentation/samples/Body%20contact%20transmission/Body%20contact%20transmission%20Munic.png" width="1200" height="auto">
+<br>
+
+## **Munic Body contact transmission detail1**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/8f6757baed09415517d4683454545ff4f29d9ef3/VirusSpreadDokumentation/samples/Body%20contact%20transmission/Body%20contact%20transmission%20Munic%20detail1.png" width="1200" height="auto">
+<br>
+<br>
+
+## **Settings Munic Body contact transmission**
+<br>
+<img src="https://github.com/gitfrid/virus4spread/blob/8f6757baed09415517d4683454545ff4f29d9ef3/VirusSpreadDokumentation/samples/Body%20contact%20transmission/Settings%20Body%20contact%20transmission%20Munic%20.png" width="500" height="auto">
+<br>
