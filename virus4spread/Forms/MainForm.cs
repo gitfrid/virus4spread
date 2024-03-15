@@ -26,16 +26,16 @@ public partial class MainForm : Form
     protected override void OnShown(EventArgs e)
     {
         base.OnShown(e);
-        // AppSettings.Config.PersonMoveRate.PropertyChanged += SamplePropertyChangedHandler!;
-        // AppSettings.Config.VirusMoveRate.PropertyChanged += SamplePropertyChangedHandler!;
+        AppSettings.Config.PersonMoveRate.PropertyChanged += SamplePropertyChangedHandler!;
+        AppSettings.Config.VirusMoveRate.PropertyChanged += SamplePropertyChangedHandler!;
         // do somthing on change here ..
-        // ConfigurationPropertyGrid.SelectedObject = ConfigurationPropertyGrid.SelectedObject = AppSettings.Config;
+        ConfigurationPropertyGrid.SelectedObject = ConfigurationPropertyGrid.SelectedObject = AppSettings.Config;
     }
 
-    //private void SamplePropertyChangedHandler(object sender, PropertyChangedEventArgs e)
-    //{
-    //    //eventsListBox.AddEvent(null!, nameof(DoubleSeriesClass.PropertyChanged), e);
-    //}
+    private void SamplePropertyChangedHandler(object sender, PropertyChangedEventArgs e)
+    {
+        //eventsListBox.AddEvent(null!, nameof(DoubleSeriesClass.PropertyChanged), e);
+    }
     private void MainForm_Load(object sender, EventArgs e)
     {
         AppSettings.Config.Setting.Load();
@@ -170,7 +170,11 @@ public partial class MainForm : Form
     }
     private void ConfigurationPropertyGrid_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
     {
-        gridForm.NoTrackMovement = !AppSettings.Config.TrackMovment;
+        Form? grdForm = Application.OpenForms["GridForm"];
+        if (grdForm != null) 
+        {
+            gridForm.NoTrackMovement = !AppSettings.Config.TrackMovment;
+        }            
         AppSettings.Config.Setting.Save();
     }
     private void ConfigurationPropertyGrid_CollectionFormClosed(object s, FormClosedEventArgs e)

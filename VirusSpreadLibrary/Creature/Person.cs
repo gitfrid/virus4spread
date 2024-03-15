@@ -256,7 +256,7 @@ public class Person
 
     private void AddToGrid(Grid.Grid Grid)
     {
-        // if virus not moved do nothing
+        // if person not moved do nothing
         if (StartGridCoordinate.X == EndGridCoordinate.X & StartGridCoordinate.Y == EndGridCoordinate.Y)
         {
             return;
