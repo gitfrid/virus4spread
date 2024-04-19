@@ -6,12 +6,11 @@ To investigate annually recurring waves from the momentum of a chaotic system, a
 <br> 
 Since the linear sientific SIR model used, seems to differ from reality.
 <br>
-<br> 
 <br>So what is special about this simulation? 
 <br>Most other simulations already assume the droplet theory, this one does not. 
 <br>
 
-**This project is canceled, after I was pointed out to following facts**
+**This project is canceled, after I was pointed out to following:**
 
 None of those three imaginary states (Latency, Infectious, Immunity) describe in any manner any real physical/biological system. 
 <br>
@@ -20,8 +19,10 @@ Contagions doesn't work that way (like petri dishes).
 <br>
 For the most part viruses are already ubiquitous at very low prevalence.
 <br>
+<br>
 All viruses are beneficial at different levels of expression/prevalence. Same as bacteria. 
 <br>Only when the dynamical system loses its capacity for information transfer, pathogenic viruses proliferate causing harm.
+<br>
 
 
 **Droplet VS Airborn ‐ Munic City comparison example see**
