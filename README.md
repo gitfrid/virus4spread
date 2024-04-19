@@ -1,6 +1,6 @@
 **virus4spread virus distribution model-simulation**
 
-**This project is canceled, after I was pointed out to following:**
+**This project is holded, after I was pointed out to following:**
 
 None of those three imaginary states (Latency, Infectious, Immunity) describe in any manner any real physical/biological system. 
 <br>
