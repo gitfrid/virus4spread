@@ -1,10 +1,9 @@
 **virus4spread virus distribution model-simulation**
 
-**This project is holded, after I was pointed out to following:**
+**This project was holded, after I was pointed out to following:**
 
 None of those three imaginary states (Latency, Infectious, Immunity) describe in any manner any real physical/biological system. 
-<br>
-Contagions doesn't work that way (like petri dishes reductionism). 
+<br>Contagions doesn't work that way (like petri dishes reductionism). 
 <br>
 <br>
 For the most part viruses are already ubiquitous at very low prevalence.
