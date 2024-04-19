@@ -10,6 +10,20 @@ Since the linear sientific SIR model used, seems to differ from reality.
 <br>So what is special about this simulation? 
 <br>Most other simulations already assume the droplet theory, this one does not. 
 <br>
+
+**This project is canceled, after I was pointed out to following facts**
+
+None of those three imaginary states (Latency, Infectious, Immunity) describe in any manner any real physical/biological system. 
+<br>
+Contagions doesn't work that way (like petri dishes). 
+<br>
+<br>
+For the most part viruses are already ubiquitous at very low prevalence.
+<br>
+All viruses are beneficial at different levels of expression/prevalence. Same as bacteria. 
+<br>Only when the dynamical system loses its capacity for information transfer, pathogenic viruses proliferate causing harm.
+
+
 **Droplet VS Airborn ‐ Munic City comparison example see**
 [Droplet VS Airborn](https://github.com/gitfrid/virus4spread/wiki/4.-Droplet-VS-Airborn-%E2%80%90-Munic-City-comparison)
 <br>
