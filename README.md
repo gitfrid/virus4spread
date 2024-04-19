@@ -23,7 +23,7 @@ For the most part viruses are already ubiquitous at very low prevalence.
 All viruses are beneficial at different levels of expression/prevalence. Same as bacteria. 
 <br>Only when the dynamical system loses its capacity for information transfer, pathogenic viruses proliferate causing harm.
 <br>
-
+<br>
 
 **Droplet VS Airborn ‐ Munic City comparison example see**
 [Droplet VS Airborn](https://github.com/gitfrid/virus4spread/wiki/4.-Droplet-VS-Airborn-%E2%80%90-Munic-City-comparison)
